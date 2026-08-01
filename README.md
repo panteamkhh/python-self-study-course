@@ -1,93 +1,93 @@
 # Python Self-Study Path — Fundamentals to Advanced
 
-یک دوره‌ی کامل و خودآموز پایتون، از صفر تا سطح پیشرفته، برای یادگیری مستقل بدون نیاز به ویدیو. هر درس یک واحد کامل شامل توضیح مفهومی، مثال‌های اجرا‌شدنی، تمرین، پاسخ‌نامه و کوییز است.
+A complete, self-paced Python course, from zero to advanced level, designed for independent learning without needing videos. Each lesson is a complete unit including conceptual explanation, runnable examples, exercises, an answer key, and a quiz.
 
-این ریپو از سه بخش تشکیل شده که پشت‌سرهم و به‌ترتیب باید مطالعه شوند. شماره‌ی درس‌ها در کل ریپو پیوسته است (۱ تا ۱۵) تا مسیر یادگیری واضح و بدون ابهام باشد.
+This repository is made up of three parts that should be studied in sequence. Lesson numbers are continuous across the whole repo (1 to 15) so the learning path is clear and unambiguous.
 
 ---
 
-## ساختار دوره
+## Course Structure
 
-| بخش | عنوان | درس‌ها | توضیح |
+| Part | Title | Lessons | Description |
 |---|---|---|---|
-| 📗 [01-python-fundamentals](./01-python-fundamentals) | Python Fundamentals | درس ۱ تا ۵ | مبانی پایتون، برای افرادی که هیچ تجربه‌ی برنامه‌نویسی ندارند |
-| 📘 [02-python-intermediate](./02-python-intermediate) | Python Intermediate | درس ۶ تا ۱۰ | ساختمان‌داده‌ها، توابع، و مدیریت خطا |
-| 📙 [03-python-advanced](./03-python-advanced) | Python Advanced | درس ۱۱ تا ۱۵ | برنامه‌نویسی شی‌گرا، متدهای ویژه، و جنریتورها |
+| 📗 [01-python-fundamentals](./01-python-fundamentals) | Python Fundamentals | Lessons 1–5 | Python basics, for people with no programming experience |
+| 📘 [02-python-intermediate](./02-python-intermediate) | Python Intermediate | Lessons 6–10 | Data structures, functions, and error handling |
+| 📙 [03-python-advanced](./03-python-advanced) | Python Advanced | Lessons 11–15 | Object-oriented programming, special methods, and generators |
 
 ---
 
-## فهرست کامل درس‌ها (۱ تا ۱۵)
+## Full Lesson List (1 to 15)
 
-### 📗 بخش اول — Python Fundamentals (درس ۱–۵)
+### 📗 Part One — Python Fundamentals (Lessons 1–5)
 
-| # | درس | موضوع |
+| # | Lesson | Topic |
 |---|---|---|
-| 01 | [Lesson-01-Your-First-Program](./01-python-fundamentals/Lesson-01-Your-First-Program) | `print()`، کامنت‌ها، ترتیب اجرای برنامه |
-| 02 | [Lesson-02-Variables-and-Data-Types](./01-python-fundamentals/Lesson-02-Variables-and-Data-Types) | متغیرها، `int`، `float`، `str`، `bool`، `type()` |
-| 03 | [Lesson-03-Working-with-Numbers](./01-python-fundamentals/Lesson-03-Working-with-Numbers) | عملگرهای محاسباتی، تقسیم صحیح، باقی‌مانده، توان |
-| 04 | [Lesson-04-Type-Conversion](./01-python-fundamentals/Lesson-04-Type-Conversion) | `int()`، `float()`، `str()`، `bool()` و نکات تبدیل نوع |
-| 05 | [Lesson-05-Comparison-and-Boolean-Logic](./01-python-fundamentals/Lesson-05-Comparison-and-Boolean-Logic) | `==`، `!=`، `<`، `>`، `and`، `or`، `not` |
+| 01 | [Lesson-01-Your-First-Program](./01-python-fundamentals/Lesson-01-Your-First-Program) | `print()`, comments, program execution order |
+| 02 | [Lesson-02-Variables-and-Data-Types](./01-python-fundamentals/Lesson-02-Variables-and-Data-Types) | Variables, `int`, `float`, `str`, `bool`, `type()` |
+| 03 | [Lesson-03-Working-with-Numbers](./01-python-fundamentals/Lesson-03-Working-with-Numbers) | Arithmetic operators, integer division, modulus, exponentiation |
+| 04 | [Lesson-04-Type-Conversion](./01-python-fundamentals/Lesson-04-Type-Conversion) | `int()`, `float()`, `str()`, `bool()` and type conversion notes |
+| 05 | [Lesson-05-Comparison-and-Boolean-Logic](./01-python-fundamentals/Lesson-05-Comparison-and-Boolean-Logic) | `==`, `!=`, `<`, `>`, `and`, `or`, `not` |
 
-📄 مرجع سریع: [CheatSheet-Part-01.md](./01-python-fundamentals/CheatSheet-Part-01.md)
+📄 Quick reference: [CheatSheet-Part-01.md](./01-python-fundamentals/CheatSheet-Part-01.md)
 
-### 📘 بخش دوم — Python Intermediate (درس ۶–۱۰)
+### 📘 Part Two — Python Intermediate (Lessons 6–10)
 
-| # | درس | موضوع |
+| # | Lesson | Topic |
 |---|---|---|
-| 06 | [Lesson-06-Sets-and-Operations](./02-python-intermediate/Lesson-06-Sets-and-Operations) | مجموعه‌ها (Sets) و عملیات روی آن‌ها |
-| 07 | [Lesson-07-Defining-Functions](./02-python-intermediate/Lesson-07-Defining-Functions) | تعریف توابع |
-| 08 | [Lesson-08-Arguments-and-Scope](./02-python-intermediate/Lesson-08-Arguments-and-Scope) | آرگومان‌ها و دامنه‌ی متغیرها (Scope) |
-| 09 | [Lesson-09-Higher-Order-Functions](./02-python-intermediate/Lesson-09-Higher-Order-Functions) | توابع مرتبه‌بالاتر (Higher-Order Functions) |
-| 10 | [Lesson-10-Try-and-Except](./02-python-intermediate/Lesson-10-Try-and-Except) | مدیریت خطا با `try` و `except` |
+| 06 | [Lesson-06-Sets-and-Operations](./02-python-intermediate/Lesson-06-Sets-and-Operations) | Sets and set operations |
+| 07 | [Lesson-07-Defining-Functions](./02-python-intermediate/Lesson-07-Defining-Functions) | Defining functions |
+| 08 | [Lesson-08-Arguments-and-Scope](./02-python-intermediate/Lesson-08-Arguments-and-Scope) | Arguments and variable scope |
+| 09 | [Lesson-09-Higher-Order-Functions](./02-python-intermediate/Lesson-09-Higher-Order-Functions) | Higher-order functions |
+| 10 | [Lesson-10-Try-and-Except](./02-python-intermediate/Lesson-10-Try-and-Except) | Error handling with `try` and `except` |
 
-📄 مرجع سریع: [CheatSheet-Part-02.md](./02-python-intermediate/CheatSheet-Part-02.md)
+📄 Quick reference: [CheatSheet-Part-02.md](./02-python-intermediate/CheatSheet-Part-02.md)
 
-### 📙 بخش سوم — Python Advanced (درس ۱۱–۱۵)
+### 📙 Part Three — Python Advanced (Lessons 11–15)
 
-| # | درس | موضوع |
+| # | Lesson | Topic |
 |---|---|---|
-| 11 | [Lesson-11-Classes-and-Objects](./03-python-advanced/Lesson-11-Classes-and-Objects) | کلاس‌ها و اشیاء |
-| 12 | [Lesson-12-Inheritance-and-Polymorphism](./03-python-advanced/Lesson-12-Inheritance-and-Polymorphism) | وراثت و چندریختی (Polymorphism) |
-| 13 | [Lesson-13-Special-Methods](./03-python-advanced/Lesson-13-Special-Methods) | متدهای ویژه / Dunder Methods |
-| 14 | [Lesson-14-Generators-and-Yield](./03-python-advanced/Lesson-14-Generators-and-Yield) | جنریتورها و `yield` |
-| 15 | [Lesson-15-Generator-Expressions](./03-python-advanced/Lesson-15-Generator-Expressions) | عبارات جنریتوری (Generator Expressions) |
+| 11 | [Lesson-11-Classes-and-Objects](./03-python-advanced/Lesson-11-Classes-and-Objects) | Classes and objects |
+| 12 | [Lesson-12-Inheritance-and-Polymorphism](./03-python-advanced/Lesson-12-Inheritance-and-Polymorphism) | Inheritance and polymorphism |
+| 13 | [Lesson-13-Special-Methods](./03-python-advanced/Lesson-13-Special-Methods) | Special methods / dunder methods |
+| 14 | [Lesson-14-Generators-and-Yield](./03-python-advanced/Lesson-14-Generators-and-Yield) | Generators and `yield` |
+| 15 | [Lesson-15-Generator-Expressions](./03-python-advanced/Lesson-15-Generator-Expressions) | Generator expressions |
 
-📄 مرجع سریع: [CheatSheet-Part-03.md](./03-python-advanced/CheatSheet-Part-03.md)
+📄 Quick reference: [CheatSheet-Part-03.md](./03-python-advanced/CheatSheet-Part-03.md)
 
 ---
 
-## ساختار هر درس
+## Structure of Each Lesson
 
-هر پوشه‌ی `Lesson-XX-Topic-Name` دقیقاً شامل این فایل‌هاست:
+Every `Lesson-XX-Topic-Name` folder contains exactly these files:
 
 ```text
 Lesson-XX-Topic-Name/
-├── lesson.md       آموزش کامل: مفاهیم، مثال‌ها، اشتباهات رایج
-├── examples.py     تمام مثال‌های درس، آماده‌ی اجرا
-├── exercise.md      تمرین‌های عملی (ساده تا سخت) — فقط سؤال
-├── solution.py      پاسخ کامل و توضیح‌داده‌شده‌ی هر تمرین
-└── quiz.md          کوییز پایان درس همراه با پاسخنامه
+├── lesson.md       Full lesson: concepts, examples, common mistakes
+├── examples.py     All lesson examples, ready to run
+├── exercise.md      Hands-on exercises (easy to hard) — questions only
+├── solution.py      Complete, explained solution for each exercise
+└── quiz.md          End-of-lesson quiz with answer key
 ```
 
-## نحوه‌ی مطالعه
+## How to Study
 
-1. `lesson.md` را کامل بخوانید.
-2. `examples.py` را خودتان اجرا کنید و مقادیر را تغییر دهید.
-3. تمرین‌های `exercise.md` را بدون نگاه‌کردن به پاسخ حل کنید.
-4. جواب‌های خودتان را با `solution.py` مقایسه کنید.
-5. `quiz.md` را بزنید تا از یادگیری خودتان مطمئن شوید.
-6. درس بعدی را طبق شماره‌ی پیوسته (۱ تا ۱۵) ادامه دهید.
+1. Read `lesson.md` all the way through.
+2. Run `examples.py` yourself and experiment with changing values.
+3. Solve the exercises in `exercise.md` without looking at the solution.
+4. Compare your answers with `solution.py`.
+5. Take the `quiz.md` to make sure you've learned the material.
+6. Move on to the next lesson following the continuous numbering (1 to 15).
 
-> توجه: هر بخش (fundamentals / intermediate / advanced) یک فایل `README.md` اختصاصی هم دارد که نسخه‌ی اصلی و کامل‌تر توضیحات همان بخش است.
+> Note: each section (fundamentals / intermediate / advanced) also has its own dedicated `README.md`, which is the original, more detailed version of that section's description.
 
-## پیش‌نیازها
+## Prerequisites
 
-- نصب بودن Python 3 (`python3 --version`)
-- یک ویرایشگر متن
-- ترمینال / خط فرمان
+- Python 3 installed (`python3 --version`)
+- A text editor
+- A terminal / command line
 
-نیازی به هیچ نرم‌افزار یا حساب کاربری دیگری نیست.
+No other software or accounts are required.
 
-## لایسنس
+## License
 
-این دوره صرفاً برای استفاده‌ی شخصی و خودآموزی ارائه شده است.
+This course is provided solely for personal, self-study use.
