@@ -1,6 +1,22 @@
-# Python Self-Study Path — Fundamentals to Advanced
+<div align="center">
 
-A complete, self-paced Python course, from zero to advanced level, designed for independent learning without needing videos. Each lesson is a complete unit including conceptual explanation, runnable examples, exercises, an answer key, and a quiz.
+# 🐍 Python Self-Study Path
+### Fundamentals → Intermediate → Advanced
+
+A complete, self-paced Python course, from zero to advanced level, designed for independent learning without needing videos.
+
+[![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Lessons](https://img.shields.io/badge/Lessons-15-4c8dff)](#full-lesson-list-1-to-15)
+[![Self--Study](https://img.shields.io/badge/Format-Self--Study-3fb950)](#how-to-study)
+[![License](https://img.shields.io/badge/License-Personal%20Use-f2cc60)](#license)
+
+<img src="./assets/showcase.gif" alt="Python Self-Study Path — repository showcase animation" width="800"/>
+
+</div>
+
+---
+
+Each lesson is a complete unit including conceptual explanation, runnable examples, exercises, an answer key, and a quiz.
 
 This repository is made up of three parts that should be studied in sequence. Lesson numbers are continuous across the whole repo (1 to 15) so the learning path is clear and unambiguous.
 
